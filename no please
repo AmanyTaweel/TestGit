@@ -1,6 +1,6 @@
 new test again and again
 
-// Mike Scott
+
 // 2d array manipulation examples
 
 //import
@@ -51,7 +51,7 @@ public class FilterExample
 		return new Color( red / numNeighbors, green / numNeighbors, blue / numNeighbors );
 	}
 
-	//helper method to determine if given coordinates are in bounds
+	
 	private boolean inBounds(Color[][] image, int row, int col)
 	{	return (row >= 0) && (row <= image.length) && (col >= 0)
 				&& (col < image[0].length);
@@ -70,4 +70,6 @@ public class FilterExample
 
 		return isRectangular;
 	}
+	//hhhhhhhh
+	
 }
